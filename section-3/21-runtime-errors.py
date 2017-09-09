@@ -18,4 +18,5 @@ b = "2"
 #   File "21-runtime-errors.py", line 21, in <module>
 #     print(c)
 # NameError: name 'c' is not defined
-print(c)
+# print(c)
+# print(b) #correct
