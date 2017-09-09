@@ -1,5 +1,3 @@
-print(type(2))
-print(type(2.4))
-print(type("2"))
-# "2"+2 doesn't work
-print("2" + "3")
+age=input("Enter your age: ")
+new_age = int(age) + 50
+print(new_age)
