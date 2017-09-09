@@ -8,3 +8,5 @@ b = c.capitalize # returns description of method capitalize
 print(b)
 d = c.capitalize() # brackets are necessary to actualy execute the method
 print(d)
+e = c + " person"
+print(e)
