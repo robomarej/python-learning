@@ -6,4 +6,10 @@ b = "2"
 # SyntaxError: invalid syntax
 # print(int(2.5)
 # print(int(2.5)) # correct
-print(a + b)
+
+# Traceback (most recent call last):
+#   File "21-runtime-errors.py", line 14, in <module>
+#     print(a + b)
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+# print(a + b)
+# print(a + int(b)) # correct
