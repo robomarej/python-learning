@@ -12,3 +12,5 @@ d = {
     "age": 20
 }
 print(d) # {'name': 'John', 'age': 20, 'cities': ('Porto', 'San Diego', 'Bali'), 'surname': 'Smith'}
+city = d["cities"][2]
+print(city) # Bali
