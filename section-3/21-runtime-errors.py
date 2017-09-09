@@ -19,4 +19,11 @@ b = "2"
 #     print(c)
 # NameError: name 'c' is not defined
 # print(c)
-# print(b) #correct
+# print(b) # correct
+
+# Traceback (most recent call last):
+#   File "21-runtime-errors.py", line 28, in <module>
+#     print(a/0)
+# ZeroDivisionError: division by zero
+# print(a/0)
+# print(a/1) # correct
