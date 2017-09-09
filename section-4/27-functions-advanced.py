@@ -22,5 +22,5 @@ print(minutes_to_hours(60, 300))
 # SyntaxError: non-default argument follows default argument
 # print(minutes_to_hours(60))
 
-print(minutes_to_hours(60, 300)) #overrides default value for minutes (300 instead of 70)
+print(minutes_to_hours(60, 300)) # overrides default value for minutes (300 instead of 70)
 print(minutes_to_hours(60)) # uses default value for minutes (70)
