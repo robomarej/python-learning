@@ -1,4 +1,5 @@
 import datetime
+import time
 print(datetime.datetime.now())
 
 yesterday=datetime.datetime(2017,9,9,4,0,0,0)
@@ -15,3 +16,10 @@ def create_file():
 create_file()
 
 print(now+datetime.timedelta(days=2)) # adding 2 days
+
+times = []
+for i in range(5):
+    times.append(datetime.datetime.now())
+    time.sleep(1)
+
+print(times)
