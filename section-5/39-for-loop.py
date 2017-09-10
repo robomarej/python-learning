@@ -1,3 +1,4 @@
-emails = ["me@gmail.com", "you@gmail.com", "they@email.com"]
+emails = ["me@gmail.com", "you@hotmail.com", "they@gmail.com"]
 for email in emails:
-    print(email)
+    if "gmail" in email:
+        print(email)
