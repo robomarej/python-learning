@@ -1,5 +1,5 @@
-"""
-This script creates an empty file
+r"""
+This script creates \nan empty file
 """
 
 filename="sample.txt"
